@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class PageController {
     @GetMapping("/first")
-    public String first() { return "first"; }
+    public String first() { return "first";  }
 
     @GetMapping("/second")
     public String second() { return "second"; }
